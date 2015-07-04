@@ -13,6 +13,12 @@
 		6ADAB4911B461531009B2576 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ADAB4901B461531009B2576 /* Images.xcassets */; };
 		6ADAB4941B461531009B2576 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ADAB4921B461531009B2576 /* LaunchScreen.xib */; };
 		6ADAB4A01B461531009B2576 /* SplashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADAB49F1B461531009B2576 /* SplashTests.swift */; };
+		6ADAB4AE1B464309009B2576 /* splash 3X-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ADAB4AA1B464309009B2576 /* splash 3X-2.png */; };
+		6ADAB4AF1B464309009B2576 /* splash 3X.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6ADAB4AB1B464309009B2576 /* splash 3X.jpg */; };
+		6ADAB4B01B464309009B2576 /* splash 3X.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ADAB4AC1B464309009B2576 /* splash 3X.png */; };
+		6ADAB4B11B464309009B2576 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ADAB4AD1B464309009B2576 /* splash.png */; };
+		6ADB9EF71B47646600D397A3 /* smartphone-message-send-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ADB9EF61B47646600D397A3 /* smartphone-message-send-icon.png */; };
+		6ADCC7DA1B46D5B6007D8934 /* logoSegey.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ADCC7D91B46D5B6007D8934 /* logoSegey.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		6ADAB4991B461531009B2576 /* SplashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ADAB49E1B461531009B2576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6ADAB49F1B461531009B2576 /* SplashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashTests.swift; sourceTree = "<group>"; };
+		6ADAB4AA1B464309009B2576 /* splash 3X-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash 3X-2.png"; sourceTree = "<group>"; };
+		6ADAB4AB1B464309009B2576 /* splash 3X.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "splash 3X.jpg"; sourceTree = "<group>"; };
+		6ADAB4AC1B464309009B2576 /* splash 3X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash 3X.png"; sourceTree = "<group>"; };
+		6ADAB4AD1B464309009B2576 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		6ADB9EF61B47646600D397A3 /* smartphone-message-send-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smartphone-message-send-icon.png"; sourceTree = "<group>"; };
+		6ADCC7D91B46D5B6007D8934 /* logoSegey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoSegey.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,7 @@
 		6ADAB4861B461531009B2576 /* Splash */ = {
 			isa = PBXGroup;
 			children = (
+				6ADAB4A91B464309009B2576 /* imagess */,
 				6ADAB4891B461531009B2576 /* AppDelegate.swift */,
 				6ADAB48B1B461531009B2576 /* ViewController.swift */,
 				6ADAB48D1B461531009B2576 /* Main.storyboard */,
@@ -110,6 +123,19 @@
 				6ADAB49E1B461531009B2576 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ADAB4A91B464309009B2576 /* imagess */ = {
+			isa = PBXGroup;
+			children = (
+				6ADB9EF61B47646600D397A3 /* smartphone-message-send-icon.png */,
+				6ADCC7D91B46D5B6007D8934 /* logoSegey.png */,
+				6ADAB4AA1B464309009B2576 /* splash 3X-2.png */,
+				6ADAB4AB1B464309009B2576 /* splash 3X.jpg */,
+				6ADAB4AC1B464309009B2576 /* splash 3X.png */,
+				6ADAB4AD1B464309009B2576 /* splash.png */,
+			);
+			path = imagess;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,8 +219,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ADAB48F1B461531009B2576 /* Main.storyboard in Resources */,
+				6ADAB4B11B464309009B2576 /* splash.png in Resources */,
 				6ADAB4941B461531009B2576 /* LaunchScreen.xib in Resources */,
 				6ADAB4911B461531009B2576 /* Images.xcassets in Resources */,
+				6ADB9EF71B47646600D397A3 /* smartphone-message-send-icon.png in Resources */,
+				6ADAB4AE1B464309009B2576 /* splash 3X-2.png in Resources */,
+				6ADAB4B01B464309009B2576 /* splash 3X.png in Resources */,
+				6ADCC7DA1B46D5B6007D8934 /* logoSegey.png in Resources */,
+				6ADAB4AF1B464309009B2576 /* splash 3X.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +441,7 @@
 				6ADAB4A51B461531009B2576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6ADAB4A61B461531009B2576 /* Build configuration list for PBXNativeTarget "SplashTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +450,7 @@
 				6ADAB4A81B461531009B2576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
